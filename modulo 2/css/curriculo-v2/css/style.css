@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+table{
+    margin: auto;
+}
+
+th,td{
+    padding: 6px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+tbody tr:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title{
+    color: darkred;
+}
+
+.author{
+    text-align: right;
+    font-style: italic;
+}
